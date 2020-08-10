@@ -26,6 +26,8 @@ function Skills(){
             <h6 className="mr-3 skill-level-confident p-2">
               Data Structures and Algorithms
             </h6>
+            <h6 className="mr-3 skill-level-medium p-2">SwiftUI</h6>
+            <h6 className='mr-3 skill-level-beginner p-2'>Django</h6>
             <h6 className="mr-3 skill-level-medium p-2">NumPy</h6>
             <h6 className="mr-3 skill-level-beginner p-2">OpenCV</h6>
             <h6 className="mr-3 skill-level-beginner p-2">Keras</h6>
