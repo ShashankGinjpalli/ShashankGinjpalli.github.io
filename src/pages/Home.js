@@ -13,7 +13,7 @@ import Contact from '../Components/Contact'
 function Home(props){
 
     const hd1 = "Passionate in all things Technology and eagerly seeking new opportunities to learn"
-    const hd2 = " Interested in AI, DataVis and Robotics and I am actively looking for opportunities in Summer 2020"
+    const hd2 = " Interested in AI, DataVis and Robotics and I am actively looking for new grad/internship positions for Summer 2021"
 
     return(
         <div>

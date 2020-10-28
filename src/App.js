@@ -9,7 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import './App.css';
 import Home from './pages/Home';
 import allExperience from './pages/allExperience';
-import R from './assets/files/ShashankGinjpalli_Resume.pdf'
+import R from './assets/files/Shashank_Ginjpalli_Resume.pdf'
 
 
 
