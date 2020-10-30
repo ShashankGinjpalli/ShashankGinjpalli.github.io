@@ -7,7 +7,29 @@ body {
   /* font-family: Montserrat, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(-225deg, #FFFEFF 5%, #d7efff 100%);
+
+  /* -webkit-animation: AnimationName 33s ease infinite;
+  -moz-animation: AnimationName 33s ease infinite;
+  animation: AnimationName 33s ease infinite; */
 }
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:5% 0%}
+  50%{background-position:96% 100%}
+  100%{background-position:5% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:5% 0%}
+  50%{background-position:96% 100%}
+  100%{background-position:5% 0%}
+}
+@keyframes AnimationName { 
+  0%{background-position:5% 0%}
+  50%{background-position:96% 100%}
+  100%{background-position:5% 0%}
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -32,15 +54,7 @@ code {
 
 
 .orange-gradient{
-  color: #FF5F6D;  /* fallback for old browsers */
-  color: -webkit-linear-gradient(to bottom, #FFC371, #FF5F6D 40%);  /* Chrome 10-25, Safari 5.1-6 */
-  color: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.orange-gradient-background{
-  background: #FF5F6D;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #FFC371, #FF5F6D 40%);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgb(66,192,142);
 }
 
 
@@ -87,22 +101,6 @@ code {
   min-height: 10vh;
 }
 
-
-.skill-level-confident{
-  background-color: #00ac00;
-  box-shadow: 0px 0px 10px 1px #CCC;
-
-}
-
-.skill-level-medium{
-  background-color: #FAED26;
-  box-shadow: 0px 0px 10px 1px #CCC;
-}
-
-.skill-level-beginner{
-  background-color: #000080;
-  box-shadow: 0px 0px 10px 1px #CCC;
-}
 
 .box-shadow{
   box-shadow: 0px 0px 10px 1px #CCC;

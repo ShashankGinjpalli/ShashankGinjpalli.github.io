@@ -19,7 +19,7 @@ class App extends React.Component {
     return (
       <Router>
         <Container fluid = {true} className = "p-4 px-5">
-              <Navbar className="ml-2 " bg="white">
+              <Navbar className="ml-2 fluid">
                 <Nav>
                   <Link className="nav-link" to = "/" >Shashank Ginjpalli</Link>
                 </Nav>

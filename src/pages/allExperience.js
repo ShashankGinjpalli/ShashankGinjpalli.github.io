@@ -8,6 +8,7 @@ import engineering from '../assets/images/engineering.png'
 import ASU from '../assets/images/ASU.png'
 import AutonomIQ from '../assets/images/autonomiq.jpeg'
 import oneclass from '../assets/images/oneclass.jpg'
+import Fulton from '../assets/images/Fulton.png'
 
 
 
@@ -23,6 +24,14 @@ class allExperience extends React.Component {
                     image: engineering,
                     source: 'https://svl-at-asu.github.io',
                     text: "Working on a research project to see the feasability of using NLP automatically recommending datasets based on a text document"
+                },
+                {
+                    title: 'Undergraduate Student Researcher - Fulton Undergraduate Research Initiative',
+                    company: 'Ira A. Fulton Schools of Engineering',
+                    time: '[Jan 2020 - May 2020]', 
+                    image: Fulton,
+                    source: 'https://furi.engineering.asu.edu/furiproject/connecting-the-dots-towards-automated-dataset-and-visualization-recommendation-from-news-articles/',
+                    text: "Researched under the supervision of Dr. Chris Bryan to determine if NLP can be used in to automatically recommend Datasets based on a News Article"
                 },
                 {
                     title: 'AI Intern',
@@ -52,6 +61,18 @@ class allExperience extends React.Component {
         }
     }
 
+    makeItems = (items) => {
+        return items.map(item => {
+            return (
+                <Col xl={4} lg={6} md={9} sm={12}>
+                <a href={item.source} target="_blank" className="remove-hyperlink" rel="noopener noreferrer">
+                    <Crd title={item.title} company={item.company} time={item.time} image={item.image} text={item.text} />
+                </a>
+            </Col>
+            );
+        })
+    }
+
     render(){
         return (
         <div>
@@ -61,33 +82,9 @@ class allExperience extends React.Component {
 
                 <Container fluid = {true}>
                         <Row className="justify-content-around margins">
-
-                            <Col xl={4} lg={6} md={9} sm={12} >
-                                <a href={this.state.items[0].source} target="_blank" className="remove-hyperlink" rel="noopener noreferrer">
-                                        <Crd title={this.state.items[0].title} company={this.state.items[0].company} time={this.state.items[0].time} image={this.state.items[0].image} text={this.state.items[0].text} />
-                                </a>
-                            </Col>
-                            <Col xl={4} lg={6} md={9} sm={12} >
-                                <a href={this.state.items[1].source} target="_blank" className="remove-hyperlink" rel="noopener noreferrer">
-                                    <Crd title={this.state.items[1].title} company={this.state.items[1].company} time={this.state.items[1].time} image={this.state.items[1].image} text={this.state.items[1].text} />
-                                </a>
-                            </Col>
-                            <Col xl={4} lg={6} md={9} sm={12} >
-                                <a href={this.state.items[2].source} target="_blank" className="remove-hyperlink" rel="noopener noreferrer">
-                                    <Crd title={this.state.items[2].title} company={this.state.items[2].company} time={this.state.items[2].time} image={this.state.items[2].image} text={this.state.items[2].text} />
-                                </a>
-                            </Col>
+                            {this.makeItems(this.state.items)}
+                            
                         </Row>
-                        <br/>
-                        <Row className="justify-content-around margins">
-
-                            <Col xl={4} lg={6} md={9} sm={12} >
-                                <a href={this.state.items[3].source} target="_blank" className="remove-hyperlink" rel="noopener noreferrer">
-                                    <Crd title={this.state.items[3].title} company={this.state.items[3].company} time={this.state.items[3].time} image={this.state.items[3].image} text={this.state.items[3].text} />
-                                </a>
-                            </Col>
-                        </Row>
-
                 </Container>
                
             </div>

@@ -19,7 +19,7 @@ class Projects extends React.Component {
                 {
                     img: graphAlgorithms,
                     title: 'Graph Algorithms',
-                    dates: '[April 2019 - May 2019]',
+                    dates: '[April 2019]',
                     projectType: 'Website',
                     skill1: 'HTML',
                     skill2: 'CSS',
@@ -33,7 +33,7 @@ class Projects extends React.Component {
                 {
                     img: movielist,
                     title: 'MovieList',
-                    dates: '[October 2019 - December 2019]',
+                    dates: '[November 2019]',
                     projectType: 'IOS App',
                     skill1: 'Swift',
                     skill2: 'CoreData',

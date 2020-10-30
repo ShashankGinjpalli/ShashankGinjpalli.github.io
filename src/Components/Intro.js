@@ -29,11 +29,7 @@ function Intro(props){
                         </a>
                         <FontAwesomeIcon icon={faMapMarkerAlt} size="1.5x" className="mr-3 orange-gradient"  />
                         <h6 className="d-inline font-weight-bolder">Cupertino, California</h6>
-
-                        <br />
-                        <br />
-
-                        <h5 className = "lead" >🚧 Site Currently Under Construction 🚧</h5>
+                       
             </Container>
         </Jumbotron>
         

@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card'
 
 function Crd(props){
     return(
-        <Card className = "crd-style p-4" style={{border: 'none', height: 'auto', marginRight: 'auto', marginLeft: 'auto'}}>
+        <Card className = "p-4" style={{border: 'none', height: 'auto', marginRight: 'auto', marginLeft: 'auto', background: 'transparent'}}>
             <Card.Img className= "neumorphicShadow" style={{
                 maxWidth: '300px',
                 height: 'auto',
