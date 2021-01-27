@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8897b2afec3f154ff3cffdba9ded57b",
+    "revision": "0f35ac9304a3af1c37a91537e232a1b3",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "864e1c089fbb334176e8",
-    "url": "/static/css/main.f15b7a06.chunk.css"
+    "revision": "31b2f64fcd8e357ff53d",
+    "url": "/static/css/main.10b1e506.chunk.css"
   },
   {
     "revision": "ea4dd3cadff95cd69d42",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ff677047.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "864e1c089fbb334176e8",
-    "url": "/static/js/main.e344d321.chunk.js"
+    "revision": "31b2f64fcd8e357ff53d",
+    "url": "/static/js/main.53a08e4e.chunk.js"
   },
   {
     "revision": "7f9e2021e714f819c7f9",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/MovieList.462e9992.png"
   },
   {
-    "revision": "d60773a792fce0a76cb232b74bda3dff",
-    "url": "/static/media/Shashank_Ginjpalli_Resume.d60773a7.pdf"
+    "revision": "43685ac750121efc24604a9816c324f5",
+    "url": "/static/media/Shashank_Ginjpalli_Resume.43685ac7.pdf"
   },
   {
     "revision": "6a8af1b9cfda1d63e4f780c32035a675",
