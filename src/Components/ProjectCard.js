@@ -32,7 +32,7 @@ function ProjectCard(props){
                 <Card.Text>
                     {props.headline}
                 </Card.Text>
-                <a className="orange-gradient remove-color-hyperlink font-weight-bolder" href={props.link} target="_blank" rel="noopener noreferrer">See Details...</a>
+                <a className="mint-gradient remove-color-hyperlink font-weight-bolder" href={props.link} target="_blank" rel="noopener noreferrer">See Details...</a>
             </Card.Body>
         </Card>
     );

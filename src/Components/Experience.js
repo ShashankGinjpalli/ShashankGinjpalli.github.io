@@ -73,7 +73,7 @@ class Experience extends React.Component{
                 </Container>
                 <br/>
                 <Container fluid = {true}>
-                    <Link className="text-right remove-color-hyperlink font-weight-bolder orange-gradient" to="/Experience">See More...</Link>
+                    <Link className="text-right remove-color-hyperlink font-weight-bolder mint-gradient" to="/Experience">See More...</Link>
                 </Container>
                 <br />
                 <br />
