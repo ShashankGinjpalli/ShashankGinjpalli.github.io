@@ -23,15 +23,17 @@ function Home(props){
                         <Intro title="Hi I'm Shashank!" subTitle="Computer Science @ Arizona State University 🔱" headlineln1={hd1} headlineln2={hd2} />
                     </div>
                 </div>
-            </div>  
+            </div> 
+            <div className = "">  
             <div className="center">
                 <div className="align-center-left">        
                     <Experience />
                     <Projects />
                     <Skills />
-                    <Contact />
+                    {/* <Contact /> */}
 
                 </div> 
+            </div>
             </div>
     
         </div>

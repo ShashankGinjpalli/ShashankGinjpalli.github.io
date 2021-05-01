@@ -3,8 +3,8 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithubSquare,  } from "@fortawesome/free-brands-svg-icons";
-import {faMapMarkerAlt} from "@fortawesome/free-solid-svg-icons"
+import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import {faMapMarkerAlt, faMailBulk } from "@fortawesome/free-solid-svg-icons"
 
 
 
@@ -26,6 +26,9 @@ function Intro(props){
                         </a>
                         <a href="https://github.com/ShashankGinjpalli" target="_blank" rel="noopener noreferrer" className="social-icons">
                             <FontAwesomeIcon icon={faGithubSquare} size="2x" />
+                        </a>
+                        <a href="mailto:shashank.ginjpalli@gmail.com" target="_blank" rel="noopener noreferrer" className="social-icons">
+                            <FontAwesomeIcon icon={faMailBulk} size="2x" />
                         </a>
                         <FontAwesomeIcon icon={faMapMarkerAlt} size="1.5x" className="mr-3 mint-gradient"  />
                         <h6 className="d-inline font-weight-bolder">Cupertino, California</h6>
