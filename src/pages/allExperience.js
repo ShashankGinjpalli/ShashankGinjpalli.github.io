@@ -9,7 +9,7 @@ import ASU from '../assets/images/ASU.png'
 import AutonomIQ from '../assets/images/autonomiq.jpeg'
 import oneclass from '../assets/images/oneclass.jpg'
 import Fulton from '../assets/images/Fulton.png'
-import GDMS from '../assets/images/GDMS.jpeg'
+
 
 
 class allExperience extends React.Component {
@@ -18,20 +18,12 @@ class allExperience extends React.Component {
         this.state = {
             items: [
                 {
-                    title: 'Engineering Intern',
-                    company: 'General Dynamics Mission Systems',
-                    time: '[June 2021 - Current]',
-                    image: GDMS,
-                    source: 'https://gdmissionsystems.com',
-                    text: "Implemented health monitoring and stability tools on a Data Analytics platform for Threat Assessment across the BICES-X intelligence and communications network"
-                },
-                {
                     title: 'Undergraduate Student Researcher',
                     company: 'Sonoran Visualization Lab @ Arizona State University',
-                    time: '[August 2019 - June 2021]',
+                    time: '[August 2019 - Current]',
                     image: engineering,
                     source: 'https://svl-at-asu.github.io',
-                    text: "Co-authored 2 machine learning and data visualization research papers under the supervision of Dr. Chris Bryan, an ASU Professor."
+                    text: "Working on a research project to see the feasability of using NLP automatically recommending datasets based on a text document"
                 },
                 {
                     title: 'Undergraduate Student Researcher - Fulton Undergraduate Research Initiative',
@@ -47,7 +39,7 @@ class allExperience extends React.Component {
                     time: '[May 2019 - August 2019]',
                     image: AutonomIQ,
                     source: 'https://autonomiq.io',
-                    text: "Using multi-threading, I reengineered a Selenium-based smart scraper with 3 times the performance which allowed customers to use the app to generate and executes testcases for a significantly larger web application."
+                    text: "Worked on a product that greatly improves a Software Tester’s efficiency by using AI to automatically test their application. Created a smart scraper that goes through the customers website and grabs all of the data that is required to feed into the test case generation algorithm"
                 },
                 {
                     title: 'Student Deskside Support I',

@@ -14,7 +14,11 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD
   "/precache-manifest.203f52b8fb4b8eb50a5a2ba259fc5c33.js"
+=======
+  "/precache-manifest.a19e33ca1da06efe08313f3d78159e3e.js"
+>>>>>>> parent of e5083784 (Page Updates End of Summer 2021)
 );
 
 self.addEventListener('message', (event) => {
