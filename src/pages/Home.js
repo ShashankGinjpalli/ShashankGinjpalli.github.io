@@ -12,7 +12,7 @@ import Skills from '../Components/Skills'
 function Home(props){
 
     const hd1 = "Passionate in all things Technology and eagerly seeking new opportunities to learn"
-    const hd2 = " Interested in AI, DataVis and Robotics and I am pursuing internship positions for Summer 2021"
+    const hd2 = " Interested in AI, DataVis and Robotics and I am pursuing internship positions for Summer 2022"
 
     return(
         <div>
